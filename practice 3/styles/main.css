@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.square {
+    width: 400px;
+    height: 400px;
+    border: 3px solid #000;
+    position: relative;
+}
+
+.inner-box  {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.inner-box--peru {
+    background-color: peru;
+}
+
+.inner-box--red {
+    background-color: red;
+}
+
+/* practice 3.3 */
+
+.socials__item {
+    /* for all socials__item */
+}
+
+.socials__item--vk {
+    /* for socials__item--vk */
+}
+
+/* container example start*/
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #000;
+    height: 75px;
+    color: #fff;
+    padding: 22px 0;
+}
+
+/* container example end */

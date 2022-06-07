@@ -1,0 +1,67 @@
+/* common start */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --font-raleway: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.button {
+    display: block;
+    width: 370px;
+    height: 80px;
+    border: none;
+    border-color: transparent;
+}
+
+.button--primary {
+    background-color: #FF4343;
+    color: #fff;
+    font-family: var(--font-raleway);
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: background-color .3s ease-in-out;
+}
+
+.button--primary:hover, .button--primary:focus {
+    cursor: pointer;
+    background-color: #972b2b;
+}
+
+
+/* common end */
+
+/* header start */
+.header {
+
+}
+/* header end */
+
+/*  banner section start  */
+.banner-section {
+    height: 100vh;
+    background: url('../assets/images/home-page-bg.jpg') center;
+    background-size: cover;
+}
+
+
+
+.banner-section__descr {
+    margin-bottom: 80px;
+}
+
+.banner-section__find-out-btn {
+    margin: 0 auto;
+}
+/* banner section end */

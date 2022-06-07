@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+.about-us__main-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight:400;
+    font-size:36px;
+}
+
+.about-us__secondary-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.skill-item__title-first{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.separator{
+    width: 170px;
+    height: 1px;
+    border: 1px solid #EC7979;
+    margin: 40px 0;
+}
+.container{
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.skill-item__title-two{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.skill-item__title-three{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.skill-item__descr{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
