@@ -12,14 +12,13 @@
 /* title-name */
 .title-name {
     font-family: 'Open Sans', sans-serif;
-    weight: 700px;
+    width: 700px;
     color: black;
 }
 
 
 /* li title-item */
-.title-item {
-}
+
 
 /* ul-title */
 .title-list {
@@ -28,7 +27,7 @@
 /* li content */
 .title-item__content {
     font-family: 'Raleway', sans-serif;
-    weight: 400px;
+    width: 400px;;
     color: black;
 }
 
@@ -53,3 +52,90 @@
     cursor: pointer;
     background-color: #972b2b;
 }    
+
+
+/* section about-us */
+.skill-item__title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+li{
+    list-style-type: none;
+}
+.about-us__skills-list{
+    display: flex;
+}
+.skill-item__descr{
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* section header */
+.about-us__main-title{
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+}
+.about-us__secondary-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.skill-item__descr{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+.skill-item__title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section pricing */
+.pricing{
+    background-color:#F5F5F5;
+    width: 100%;
+    height: 100%;
+}
+
+/* separator */
+.separator{
+    width: 170px;
+    height: 1px;
+    border: 1px solid #EC7979;
+    margin: 40px auto;
+    text-align: center;
+}
