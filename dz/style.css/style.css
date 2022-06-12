@@ -2,133 +2,97 @@
 
 *{
     box-sizing: border-box;
-}
+}   
 
-/* container */
-.container {
-    width: 1170px;
+
+/* about-us 
+=================*/
+.container{
+    width: 1200px;
     margin: 0 auto;
-}
-/* title-name */
-.title-name {
-    font-family: 'Open Sans', sans-serif;
-    width: 700px;
-    color: black;
+    padding: 0 15px;
+
 }
 
-
-/* li title-item */
-
-
-/* ul-title */
-.title-list {
-    list-style-type: none;
-}
-/* li content */
-.title-item__content {
-    font-family: 'Raleway', sans-serif;
-    width: 400px;;
-    color: black;
-}
-
-
-
-/* download-btn */
-.button{
-    display: block;
-    width: 200px;
-    height: 50px;
-    border: none;
-}
-.button-title--download {
-    background-color: #FF4343;
-    color: #fff;
-    font-family: var(--font-raleway);
-    font-size: 18px;
-    font-weight: 600;
-    transition: background-color .3s ease-in-out;
-}
-.button-title--download:hover, .button-title--download:focus {
-    cursor: pointer;
-    background-color: #972b2b;
-}    
-
-
-/* section about-us */
-.skill-item__title{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-}
-li{
-    list-style-type: none;
-}
-.about-us__skills-list{
-    display: flex;
-}
-.skill-item__descr{
-    text-align: center;
-}
-
-
-
-
-
-
-
-/* section header */
-.about-us__main-title{
-    padding-top: 50px;
+.about-us__title {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 36px;
     text-align: center;
 }
-.about-us__secondary-title{
+.about-us__subtitle {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 18px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
-.skill-item__descr{
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+
+.features-items {
+    width: 33.3333%;
+    text-align: center;
+    position: relative;
+
+}
+
+.features__icon {
+    margin-top: 10px;
+}
+
+
+.features__icon.features__icon--padla {
+    margin-top: 20px;
+}
+
+
+.features__text {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    text-align: center;
+    line-height: 1.1;
 }
-.skill-item__title{
+
+
+
+.features__title { 
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 24px;
-    text-align: center;
+    margin-top: 70px;
+}
+
+
+.features__circle {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    border: 1px solid #EC7979;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
 
+/* pricing section
+====================== */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* section pricing */
-.pricing{
+.pricing {
     background-color:#F5F5F5;
+    display: block;
     width: 100%;
     height: 100%;
+    padding-top: 40px;
 }
 
 /* separator */

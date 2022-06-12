@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Domawka</title>
-    <link rel="stylesheet" href="style.css/style.css">
+    <title>Axit</title>
+    <link rel="stylesheet" href="./src/sass/main.scss">
 </head>
-    <section class="title-section">
+<body>
+    <!--<section class="title-section">
     <div class="container">
     <ul class="title-list">
         <li class="title-item">tab 1</li>
@@ -27,8 +28,9 @@
         <li class="title-item">tab 3</li>
     </ul>
     
-    </div>
+    </div> </-->
 
+<section class="tabs">
     <div class="tabs--wrapper">
         <div class="tabs__switchers">
             <ul>
@@ -46,7 +48,7 @@
             </div>
         </div>
     </div>
-        
+</section>      
 
     
 
@@ -60,36 +62,33 @@
 
 <section class="about-us">
         <div class="container">
-        <h2 class="about-us__main-title">why this is awesome</h2>
-        <div class="separator separator--red-color separator--half-width"></div>
-        <p class="about-us__secondary-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="about-us__skills-list">
-            <li class="skill-list__skill-item">
-                <div class="skill-item__image--wrapper">
-                <h4 class="skill-item__title">Thoughtful Design</h4>
-                <p class="skill-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing 
-elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
-            </li>
-            <li class="skill-list__item">
-                <div class="skill-item__image--wrapper">
-                    <img class="skill-item__image" src="" alt="">
+            <h2 class="about-us__title">why this is awesome</h2>
+            <div class="separator separator--red-color separator--half-width"></div>
+            <p class="about-us__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="features">
+
+                <div class="features-items">
+                    <div class="features__circle"></div>
+                        <div><img class="features__icon" src="images/wtia/1.png" alt="lampochka"></div>
+                    <h4 class="features__title">Thoughtful Design</h4>
+                    <div class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</div>
                 </div>
-                <h4 class="skill-item__title">Thoughtful Design</h4>
-                <p class="skill-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing 
-elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
-            </li>
-            <li class="skill-list__item">
-                <div class="skill-item__image--wrapper">
-                    <img class="skill-item__image" src="" alt="">
+
+                <div class="features-items">
+                    <div class="features__circle"></div>
+                    <img class="features__icon features__icon--padla" src="images/wtia/2.png" alt="keyboard">
+                    <h4 class="features__title">Thoughtful Design</h4>
+                    <div class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</div>
                 </div>
-                <h4 class="skill-item__title">Thoughtful Design</h4>
-                <p class="skill-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing 
-elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
-            </li>
-            </ul>
+
+                <div class="features-items">
+                    <div class="features__circle"></div>
+                    <img class="features__icon" src="images/wtia/3.png" alt="molniya">
+                    <h4 class="features__title">Thoughtful Design</h4>
+                    <div class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</div>
                 </div>
-                </div>   
-        </div>
+            </div>  
+        </div> <!-- /.container-->
 </section>
 
 
@@ -98,24 +97,13 @@ elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accum
 
 <section class="pricing">
     <div class="container">
-        <h2 class="about-us__main-title">pricing options</h2>
+        <h2 class="pricing__title">pricing options</h2>
         <div class="separator separator--red-color separator--half-width"></div>
-        <p class="about-us__secondary-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="pricing-list--basic">
-        </div>
+        <p class="pricing__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="pricing-list--basic"></div>
         <div class="pricing-list--optima"></div>
         <div class="pricing-list--pro"></div>
-        
-        
-        
-
-
-
-
-
-
-
-    </div>
+    </div> <!-- container -->
 </section>
 </body>
 </html>
