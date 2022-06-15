@@ -3,6 +3,49 @@
 *{
     box-sizing: border-box;
 }   
+/* tabs 
+=================*/
+
+.tabs__button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex;
+    gap: 150px;
+}
+
+.tabs_content {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* about-us 
@@ -210,6 +253,7 @@
 .manager__item {
     width: 30%;
     margin-bottom: 30px;
+    position: relative;
 }
 
 .manager__inner {
@@ -243,4 +287,23 @@
     font-size: 18px;
     margin: 25px 20px;
     color: #000000;
+}
+
+.comment {
+    &:comment--wrapper {
+        position: relative;
+        &:after {
+
+        }
+    }
+}
+.manager__text::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 15%;
+    width: 30px;
+    height: 30px;
+    background: #E2E2E2;
+    transform: rotate(45deg);
 }
