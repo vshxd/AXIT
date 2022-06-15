@@ -113,17 +113,15 @@
 
 .pricing-item__content {
     width: 33.3333%;
-    translate:  
+    transition: margin .1s ease-in-out;
 }
 
-.pricing-list {
-    margin-top: 100px;
-}
 
 .pricing-item {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    margin-top: 100px;
 }
 
 .pricing-item__content-title {
@@ -178,6 +176,7 @@
 
 .pricing-item__content:hover {
     margin-top: -20px;
+    cursor: pointer;
 }
 
 
@@ -210,6 +209,7 @@
 
 .manager__item {
     width: 30%;
+    margin-bottom: 30px;
 }
 
 .manager__inner {
