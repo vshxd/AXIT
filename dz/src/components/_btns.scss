@@ -1,0 +1,22 @@
+.button {
+    display: block;
+    width: 370px;
+    height: 80px;
+    border: none;
+    border-color: transparent;
+}
+
+.button--primary {
+    background-color: #FF4343;
+    color: #fff;
+    font-family: var(--font-raleway);
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: background-color .3s ease-in-out;
+}
+
+.button--primary:hover, .button--primary:focus {
+    cursor: pointer;
+    background-color: #972b2b;
+}

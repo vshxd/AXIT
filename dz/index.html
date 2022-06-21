@@ -8,23 +8,80 @@
     <link rel="stylesheet" href="./style.css/style.css">
 </head>
 <body>
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+
+            <div class="header__logo">
+                <img src="./images/header/AX.png" alt="AX">
+                <img src="./images/header/IT.png" alt="IT">
+            </div>
+
+            <nav class="nav">
+                <a class="nav__link" href="#">Features</a>
+                <a class="nav__link" href="#">About</a>
+                <a class="nav__link" href="#">Pricing</a>
+                <a class="nav__link" href="#">Review</a>
+                <a class="nav__link" href="#">Contact</a>
+            </nav>
+
+        </div>
+    </div><!--/.container-->
+</header>
+
+
+<section class="intro">
+    <div class="container">
+    </div>
+</section>
+
+<section class="social-media">
+    <div class="container">
+        <div class="social__content">
+
+            <div class="content__text">
+                <h5 class="content__title">Social Media</h5>
+                <p class="content__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+            </div>
+
+            <div class="content__socials">
+                <a href="#"><img src="./images/media/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="./images/media/twitter.png" alt="twitter"></a>
+                <a href="#"><img src="./images/media/linkedin.png" alt="linkedin"></a>
+                <a href="#"><img src="./images/media/hz.png" alt="hz"></a>
+                <a href="#"><img src="./images/media/insta.png" alt="insta"></a>
+                <a href="#"><img src="./images/media/hz2.png" alt="hz2"></a>
+                <a href="#"><img src="./images/media/wifi.png" alt="wifi"></a>
+
+            </div>
+        </div>
+    </div><!--/.container-->
+</section>
 
 <section class="tabs">
     <div class="container">
-        <div class="tabs__button">
-            <p class="button__number">tab 1</p>
-            <p class="button__number">tab 2</p>
-            <p class="button__number">tab 3</p>
+        <div class="tabs__list">
+
+            <div class="tabs__item">
+                <p class="tab-item__text">tab 1</p>
+            </div>
+            <div class="tabs__item">
+                <p class="tab-item__text">tab 2</p>
+            </div>
+            <div class="tabs__item">
+                <p class="tab-item__text">tab 3</p>
+            </div>
         </div>
+
         <div class="tabs_content">
             <div class="content__main">
                 <h2 class="main__title">Tabs with soft transitioning effect.</h2>
                 <p class="main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euism bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>   
-                <p class="main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-                <button class="button button--red">Download</button>
+                <p class="main__text main__text--wrapper">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+                <button class="button button--red" type="button" >Download</button>
             </div>
             <div class="content__photo">
-                <img class="photo_image" src="./images/freeimage.jpg" alt="freestatuya">
+                <img class="content__image" src="./images/statueofliberty.jpg" alt="statueofliberty">
 
             </div>
         </div>
@@ -45,29 +102,29 @@
 <section class="about-us">
         <div class="container">
             <h2 class="about-us__title">why this is awesome</h2>
-            <div class="separator separator--red-color separator--half-width"></div>
+            <div class="separator separator--red"></div>
             <p class="about-us__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <div class="features">
 
 
                 <div class="features-items">
-                    <div class="features__circle"><div><img class="features__icon" src="images/wtia/1.png" alt="lampochka"></div></div>   
+                    <div class="features__circle"><img class="features__icon" src="images/wtia/1.png" alt="lampochka"></div>   
                     <h4 class="features__title">Thoughtful Design</h4>
-                    <div class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</div>
+                    <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                 </div>
 
 
                 <div class="features-items">
                     <div class="features__circle"><img class="features__icon features__icon--padla" src="images/wtia/2.png" alt="keyboard"></div>
                     <h4 class="features__title">Thoughtful Design</h4>
-                    <div class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</div>
+                    <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                 </div>
 
 
                 <div class="features-items">
                     <div class="features__circle"><img class="features__icon" src="images/wtia/3.png" alt="molniya"></div>
                     <h4 class="features__title">Thoughtful Design</h4>
-                    <div class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</div>
+                    <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                 </div>
 
 
@@ -82,47 +139,47 @@
 <section class="pricing">
     <div class="container">
         <h2 class="pricing__title">pricing options</h2>
-        <div class="separator separator--red-color separator--half-width"></div>
+        <div class="separator separator--red"></div>
         <p class="pricing__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="pricing-item">
+        <div class="pricing__list">
 
 
             <div class="pricing-item__content">
-                <p class="pricing-item__content-title">Basic</p>
-                <p class="pricing-item__content-price">$10</p>
-                <p class="pricing-item__content-freeforlife">Free for life</p>
-                <p class="pricing-item__content-desc">1 gb of space</p>
-                <p class="pricing-item__content-desc">1 gb of space</p>
-                <p class="pricing-item__content-desc">1 gb of space</p>
-                <p class="pricing-item__content-desc">1 gb of space</p>
-                <p class="pricing-item__content-desc">1 gb of space</p>
-                <p class="pricing-item__content-desc">1 gb of space</p>
+                <p class="pricing-item__title">Basic</p>
+                <p class="pricing-item__price">$10</p>
+                <p class="pricing-item__freeforlife">Free for life</p>
+                <p class="pricing-item__desc">1 gb of space</p>
+                <p class="pricing-item__desc">1 gb of space</p>
+                <p class="pricing-item__desc">1 gb of space</p>
+                <p class="pricing-item__desc">1 gb of space</p>
+                <p class="pricing-item__desc">1 gb of space</p>
+                <p class="pricing-item__desc">1 gb of space</p>
             </div>
 
 
             <div class="pricing-item__content">
-                <p class="pricing-item__content-title">Optima</p>
-                <p class="pricing-item__content-price">$20</p>
-                <p class="pricing-item__content-freeforlife">Free for life</p>
-                <p class="pricing-item__content-desc">1 gb of space</p>
-                <p class="pricing-item__content-desc">1 gb of space</p>
-                <p class="pricing-item__content-desc">1 gb of space</p>
-                <p class="pricing-item__content-desc">1 gb of space</p>
-                <p class="pricing-item__content-desc">1 gb of space</p>
-                <p class="pricing-item__content-desc">1 gb of space</p>
+                <p class="pricing-item__title">Basic</p>
+                <p class="pricing-item__price">$10</p>
+                <p class="pricing-item__freeforlife">Free for life</p>
+                <p class="pricing-item__desc">1 gb of space</p>
+                <p class="pricing-item__desc">1 gb of space</p>
+                <p class="pricing-item__desc">1 gb of space</p>
+                <p class="pricing-item__desc">1 gb of space</p>
+                <p class="pricing-item__desc">1 gb of space</p>
+                <p class="pricing-item__desc">1 gb of space</p>
             </div>
 
 
             <div class="pricing-item__content">
-                <p class="pricing-item__content-title">Pro</p>
-                <p class="pricing-item__content-price">$30</p>
-                <p class="pricing-item__content-freeforlife">Free for life</p>
-                <p class="pricing-item__content-desc">1 gb of space</p>
-                <p class="pricing-item__content-desc">1 gb of space</p>
-                <p class="pricing-item__content-desc">1 gb of space</p>
-                <p class="pricing-item__content-desc">1 gb of space</p>
-                <p class="pricing-item__content-desc">1 gb of space</p>
-                <p class="pricing-item__content-desc">1 gb of space</p>
+                <p class="pricing-item__title">Basic</p>
+                <p class="pricing-item__price">$10</p>
+                <p class="pricing-item__freeforlife">Free for life</p>
+                <p class="pricing-item__desc">1 gb of space</p>
+                <p class="pricing-item__desc">1 gb of space</p>
+                <p class="pricing-item__desc">1 gb of space</p>
+                <p class="pricing-item__desc">1 gb of space</p>
+                <p class="pricing-item__desc">1 gb of space</p>
+                <p class="pricing-item__desc">1 gb of space</p>
             </div>
 
 
@@ -136,54 +193,54 @@
 <section class="customers">
     <div class="container">
         <h2 class="customers__title">what our customers are saying</h2>
-        <div class="separator separator--red-color separator--half-width"></div>
+        <div class="separator separator--red"></div>
         <p class="customers__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="manager-list">
+        <div class="customers__list">
 
 
-            <div class="manager__item">
-                <div class="manager__text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+            <div class="customer__item">
+                <div class="customer__text--wrapper">
+                    <p class="customer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
                 </div>
-                <div class="manager__inner">
-                    <div class="manager__photo">
+                <div class="customer__info">
+                    <div class="customer__info-avatar">
                         <img src="./images/managers/manager-1.png" alt="manager_1">
                     </div>
-                    <div class="manager__name">
-                        <p class="manager__subname">Davis Rhiel Madsen</p>
-                        <p class="manager__prof">Manager</p>
+                    <div class="customer__details">
+                        <p class="customer__name">Davis Rhiel Madsen</p>
+                        <p class="customer__group">Manager</p>
                     </div>     
                 </div>
             </div>
 
 
-            <div class="manager__item">
-                <div class="manager__text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+            <div class="customer__item">
+                <div class="customer__text--wrapper">
+                    <p class="customer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
                 </div>
-                <div class="manager__inner">
-                    <div class="manager__photo">
+                <div class="customer__info">
+                    <div class="customer__info-avatar">
                         <img src="./images/managers/manager-2.png" alt="manager_2">
                     </div>
-                    <div class="manager__name">
-                        <p class="manager__subname">Jaydon Rosser</p>
-                        <p class="manager__prof">Manager</p>
+                    <div class="customer__details">
+                        <p class="customer__name">Jaydon Rosser</p>
+                        <p class="customer__group">Manager</p>
                     </div>     
                 </div>
             </div>
 
 
-            <div class="manager__item">
-                <div class="manager__text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+            <div class="customer__item">
+                <div class="customer__text--wrapper">
+                    <p class="customer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
                 </div>
-                <div class="manager__inner">
-                    <div class="manager__photo">
+                <div class="customer__info">
+                    <div class="customer__info-avatar">
                         <img src="./images/managers/manager-3.png" alt="manager_3">
                     </div>
-                    <div class="manager__name">
-                        <p class="manager__subname">Cooper Dorwart</p>
-                        <p class="manager__prof">Manager</p>
+                    <div class="customer__details">
+                        <p class="customer__name">Cooper Dorwart</p>
+                        <p class="customer__group">Manager</p>
                     </div>     
                 </div>
             </div>
@@ -192,6 +249,56 @@
         </div> <!--/.manager-list-->
     </div> <!--/.container-->
 </section>
+
+
+<section class="design">
+    <div class="container">
+        <div class="overlay"></div>
+        <div class="title__container">
+            <h2 class="design__title">STYLISH AXURE DESIGN</h2>
+            <div class="separator separator--white"></div>
+            <p class="design__subtitle">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+            <div class="button__position">
+                <button class="button button--black" type="button">Download</button>
+            </div>
+        </div>
+
+    </div><!--/.container-->
+</section>
+
+
+<section class="contact">
+    <div class="container">
+        <h2 class="contact__title">Contact us</h2>
+        <div class="separator separator--red"></div>
+        <p class="contact__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div><!--/.container-->
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__content">
+
+            <div class="footer__socials">
+                <a class="social" href="#"><img src="./images/socials/facebook.png" alt="fb"></a>
+                <a class="social" href="#"><img src="./images/socials/twitter.png" alt="twitter"></a>
+                <a class="social" href="#"><img src="./images/socials/linkedin.png" alt="linkedin"></a>
+                <a class="social" href="#"><img src="./images/socials/hz.png" alt="hz4toeto"></a>
+                <a class="social" href="#"><img src="./images/socials/insta.png" alt="insta"></a>
+                <a class="social" href="#"><img src="./images/socials/hz2.png" alt="hz2"></a>
+                <a class="social" href="#"><img src="./images/socials/wifi.png" alt="wifi"></a>
+            </div>
+
+            <div class="footer__text--wrapper">
+                <p class="footer__text">© 2015 Axure Themes</p>
+            </div>
+
+        </div>
+        
+    </div><!--/.container-->
+</footer>
+
 </body>
 </html>
 </body>

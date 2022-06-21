@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $borderColorGrey;
+}
+
+.nav {
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        padding: 35px;
+        transition: border-bottom .3s ease-in-out;
+
+        &.active {
+            border-bottom: 2px solid $borderColorGrey;
+        }
+
+        &:hover {
+            cursor: pointer;
+            border-bottom: 2px solid $borderColorGrey;
+        }
+
+        &:active {
+            border-bottom: 2px solid $colorRedAccent;
+
+            .nav__link {
+                color: $colorRedAccent;
+            }
+        }
+    }
+
+    &__link {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: $fontRaleway;
+        font-weight: 700;
+        font-size: 13px;
+        transition: color .3s ease-in-out;
+    }
+}
