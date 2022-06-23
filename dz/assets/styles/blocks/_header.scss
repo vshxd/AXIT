@@ -1,8 +1,13 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: absolute;
+    width: 100%;
     border-bottom: 1px solid $borderColorGrey;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .nav {
@@ -37,9 +42,7 @@
         color: #fff;
         text-decoration: none;
         text-transform: uppercase;
-        font-family: $fontRaleway;
-        font-weight: 700;
-        font-size: 13px;
+        @include fontStyle($fontRaleway, 700, 13);
         transition: color .3s ease-in-out;
     }
 }

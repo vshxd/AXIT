@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Axit</title>
-    <link rel="stylesheet" href="./style.css/style.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
 <header class="header">
     <div class="container">
         <div class="header__inner">
 
-            <div class="header__logo">
-                <img src="./images/header/AX.png" alt="AX">
-                <img src="./images/header/IT.png" alt="IT">
+            <div class="header__logo--wrapper">
+                <img class="header-logo__AX" src="./assets/images/header/AX.png" alt="AX">
+                <img class="header-logo__IT" src="./assets/images/header/IT.png" alt="IT">
             </div>
 
             <nav class="nav">
@@ -30,10 +30,46 @@
 </header>
 
 
+
+
 <section class="intro">
     <div class="container">
-    </div>
+        <div class="intro__content">
+            <div class="intro__text">
+                <div class="intro__logo--wrapper">
+                    <img class="intro__logo" src="./assets/images/intro-logo/AX.png" alt="AX">
+                    <img class="intro__logo" src="./assets/images/intro-logo/IT.png" alt="IT">
+                </div>
+                <h2 class="intro__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
+                <div class="separator separator--white separator--white-title"></div>
+                <p class="intro__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <div class="button__intro">
+                    <button class="button button--black button--black-title">Download</button>
+                </div>
+            </div>
+                
+
+            <div class="intro__form">
+                <form class="form__content">
+                    <div class="form__controls">
+                        <h4 class="form__title">Try Your <span class="form__title--wrapper">FREE</span> Trial Today</h4>
+                            <input type="text" class="form__control" placeholder="Name">
+                            <input type="email" class="form__control" placeholder="Email">
+                            <input type="password" class="form__control" placeholder="Password">
+
+                    </div>
+                    <button class="button button--red button--red-form">Get started</button>
+                </form>
+
+            </div>
+
+        </div><!--/.intro-content-->
+    </div><!--/.container-->
 </section>
+
+
+
+
 
 <section class="social-media">
     <div class="container">
@@ -45,13 +81,15 @@
             </div>
 
             <div class="content__socials">
-                <a href="#"><img src="./images/media/facebook.png" alt="facebook"></a>
-                <a href="#"><img src="./images/media/twitter.png" alt="twitter"></a>
-                <a href="#"><img src="./images/media/linkedin.png" alt="linkedin"></a>
-                <a href="#"><img src="./images/media/hz.png" alt="hz"></a>
-                <a href="#"><img src="./images/media/insta.png" alt="insta"></a>
-                <a href="#"><img src="./images/media/hz2.png" alt="hz2"></a>
-                <a href="#"><img src="./images/media/wifi.png" alt="wifi"></a>
+                <a class="socials__icon" href="#"><svg width="32" height="56" viewBox="0 0 32 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M7.82702 55.7083H19.4937V32.3458H30.0054L31.1604 20.7375H19.4937V14.875C19.4937 14.1014 19.801 13.3595 20.348 12.8126C20.8949 12.2656 21.6368 11.9583 22.4104 11.9583H31.1604V0.291626H22.4104C18.5426 0.291626 14.8333 1.82808 12.0984 4.56299C9.36347 7.29789 7.82702 11.0072 7.82702 14.875V20.7375H1.99368L0.838684 32.3458H7.82702V55.7083Z" fill="#CCCCCC"/>
+                                                    </svg></a>
+                <a class="socials__icon" href="#"></a>
+                <a class="socials__icon" href="#"></a>
+                <a class="socials__icon" href="#"></a>
+                <a class="socials__icon" href="#"></a>
+                <a class="socials__icon" href="#"></a>
+                <a class="socials__icon" href="#"></a>
 
             </div>
         </div>
@@ -78,10 +116,10 @@
                 <h2 class="main__title">Tabs with soft transitioning effect.</h2>
                 <p class="main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euism bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>   
                 <p class="main__text main__text--wrapper">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-                <button class="button button--red" type="button" >Download</button>
+                <button class="button button--red">Download</button>
             </div>
             <div class="content__photo">
-                <img class="content__image" src="./images/statueofliberty.jpg" alt="statueofliberty">
+                <img class="content__image" src="./assets/images/statueofliberty.jpg" alt="statueofliberty">
 
             </div>
         </div>
@@ -108,21 +146,21 @@
 
 
                 <div class="features-items">
-                    <div class="features__circle"><img class="features__icon" src="images/wtia/1.png" alt="lampochka"></div>   
+                    <div class="features__circle"><img class="features__icon" src="./assets/images/wtia/1.png" alt="lampochka"></div>   
                     <h4 class="features__title">Thoughtful Design</h4>
                     <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                 </div>
 
 
                 <div class="features-items">
-                    <div class="features__circle"><img class="features__icon features__icon--padla" src="images/wtia/2.png" alt="keyboard"></div>
+                    <div class="features__circle"><img class="features__icon features__icon--padla" src="./assets/images/wtia/2.png" alt="keyboard"></div>
                     <h4 class="features__title">Thoughtful Design</h4>
                     <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                 </div>
 
 
                 <div class="features-items">
-                    <div class="features__circle"><img class="features__icon" src="images/wtia/3.png" alt="molniya"></div>
+                    <div class="features__circle"><img class="features__icon" src="./assets/images/wtia/3.png" alt="molniya"></div>
                     <h4 class="features__title">Thoughtful Design</h4>
                     <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                 </div>
@@ -204,7 +242,7 @@
                 </div>
                 <div class="customer__info">
                     <div class="customer__info-avatar">
-                        <img src="./images/managers/manager-1.png" alt="manager_1">
+                        <img src="./assets/images/managers/manager-1.png" alt="manager_1">
                     </div>
                     <div class="customer__details">
                         <p class="customer__name">Davis Rhiel Madsen</p>
@@ -220,7 +258,7 @@
                 </div>
                 <div class="customer__info">
                     <div class="customer__info-avatar">
-                        <img src="./images/managers/manager-2.png" alt="manager_2">
+                        <img src="./assets/images/managers/manager-2.png" alt="manager_2">
                     </div>
                     <div class="customer__details">
                         <p class="customer__name">Jaydon Rosser</p>
@@ -236,7 +274,7 @@
                 </div>
                 <div class="customer__info">
                     <div class="customer__info-avatar">
-                        <img src="./images/managers/manager-3.png" alt="manager_3">
+                        <img src="./assets/images/managers/manager-3.png" alt="manager_3">
                     </div>
                     <div class="customer__details">
                         <p class="customer__name">Cooper Dorwart</p>
@@ -272,6 +310,26 @@
         <h2 class="contact__title">Contact us</h2>
         <div class="separator separator--red"></div>
         <p class="contact__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="contact__form">
+            <form class="form-second">
+                <div class="form-second__controls--wrapper">
+
+                    <div class="form-second__left-controls">
+                        <input type="text" class="form-second__control" placeholder="Name">
+                        <input type="email" class="form-second__control" placeholder="Email">
+                        <input type="password" class="form-second__control" placeholder="Password">
+                    </div>
+
+
+                    <div class="form-second__right-controls">
+                        <textarea class="form-second__control form-second__control--message-field" placeholder="Message"></textarea>
+                    </div>
+                </div>
+            </form>
+            <button class="button button--red button--red-form-contact">Send message</button>
+
+        </div><!--/.contact__form-->
     </div><!--/.container-->
 </section>
 
@@ -281,17 +339,20 @@
         <div class="footer__content">
 
             <div class="footer__socials">
-                <a class="social" href="#"><img src="./images/socials/facebook.png" alt="fb"></a>
-                <a class="social" href="#"><img src="./images/socials/twitter.png" alt="twitter"></a>
-                <a class="social" href="#"><img src="./images/socials/linkedin.png" alt="linkedin"></a>
-                <a class="social" href="#"><img src="./images/socials/hz.png" alt="hz4toeto"></a>
-                <a class="social" href="#"><img src="./images/socials/insta.png" alt="insta"></a>
-                <a class="social" href="#"><img src="./images/socials/hz2.png" alt="hz2"></a>
-                <a class="social" href="#"><img src="./images/socials/wifi.png" alt="wifi"></a>
+                <a class="social__link" href="#"><img src="./images/socials/facebook.png" alt="fb"></a>
+                <a class="social__link" href="#"><img src="./images/footer-socials/facebook.svg" alt="fcb"></a>
+                <a class="social__link" href="#"><img src="./images/socials/twitter.png" alt="twitter"></a>
+                <a class="social__link" href="#"><img src="./images/socials/linkedin.png" alt="linkedin"></a>
+                <a class="social__link" href="#"><img src="./images/socials/hz.png" alt="hz4toeto"></a>
+                <a class="social__link" href="#"><img src="./images/socials/insta.png" alt="insta"></a>
+                <a class="social__link" href="#"><img src="./images/socials/hz2.png" alt="hz2"></a>
+                <a class="social__link" href="#"><img src="./images/socials/wifi.png" alt="wifi"></a>
+                
             </div>
 
+
             <div class="footer__text--wrapper">
-                <p class="footer__text">© 2015 Axure Themes</p>
+                <p class="footer__text">&copy; 2015 Axure Themes</p>
             </div>
 
         </div>

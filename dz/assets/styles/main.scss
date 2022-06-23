@@ -1,14 +1,13 @@
 @import './fonts';
 @import './vars';
+@import './mixins';
 @import './adjustments';
 
 // components
-
 @import './components/btns';
 
 
 
 // blocks
-
 @import './blocks/header';
 @import './blocks/banner-section';

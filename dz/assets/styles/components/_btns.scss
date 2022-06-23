@@ -16,7 +16,7 @@
     transition: background-color .3s ease-in-out;
 }
 
-.button--primary:hover, .button--primary:focus {
+.button--primary:hover, .button--primary:active {
     cursor: pointer;
     background-color: #972b2b;
 }
