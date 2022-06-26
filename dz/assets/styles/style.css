@@ -676,10 +676,10 @@ body {
 .title__container  {
     position: relative;
     z-index: 2;
-}
-.button__position {
     text-align: center;
+    
 }
+
 
 
 /* contact section
@@ -746,9 +746,13 @@ body {
 }
 
 
+.soccials__icon path {
+    fill: black;
+}
 
-
-
+.socials__link:hover .socials__icon path {
+    fill: red;
+}
 
 
 /* footer section
@@ -780,9 +784,4 @@ body {
 
 .social__link:hover {
     background-color: white;
-}
-
-
-input {
-    color: black;
 }
